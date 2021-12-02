@@ -1,0 +1,53 @@
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: grey;
+ }
+ 
+ .container{
+ padding: 10px;
+ margin: 1%;
+ border: 0px solid grey;
+ text-align: left;
+    
+ }
+ 
+ .listado{
+ 
+  margin: 0;
+  padding: 0 0 36px 0;
+  list-style: none;
+ 
+ }
+ 
+ 
+ .item{
+  border: 0px solid grey;
+  padding: 20px;
+  margin-top: 24px;
+  box-shadow: 0px 10px 60px  rgba(32, 35, 41, 0.15);
+  border-radius: 5px;
+     
+ }
+ .background {
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-name: preloadAnimation;
+     animation-timing-function: linear;
+     background: #f6f7f8;
+     background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+     display: absolute;
+         min-height: 150px;
+ }
+ 
+ @keyframes preloadAnimation{
+     0%{
+         background-position: -769px 0
+     }
+     100%{
+         background-position: 769px 0
+     }
+ }

@@ -1,0 +1,30 @@
+.contenedor_first{
+ 
+    display: absolute;
+    align-content: center;
+    padding: 20px;  
+    border: 0px solid grey;
+    background: red;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    color: grey;
+    
+  }
+  
+  p{
+    
+    font-family: arial;
+    font-size: 20px;
+  }
+  
+  .imgTodo{
+     
+     height: 150px;
+  }
+  
+  img{ 
+    height: 100%;
+    width:  10%;
+  
+  }
+  
+  
