@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-2021/static/css/main.4bcf1253.chunk.css",
+    "main.js": "/React-2021/static/js/main.d0b6277b.chunk.js",
+    "main.js.map": "/React-2021/static/js/main.d0b6277b.chunk.js.map",
+    "runtime-main.js": "/React-2021/static/js/runtime-main.4cf6ac0e.js",
+    "runtime-main.js.map": "/React-2021/static/js/runtime-main.4cf6ac0e.js.map",
+    "static/js/2.db0edaa9.chunk.js": "/React-2021/static/js/2.db0edaa9.chunk.js",
+    "static/js/2.db0edaa9.chunk.js.map": "/React-2021/static/js/2.db0edaa9.chunk.js.map",
+    "index.html": "/React-2021/index.html",
+    "precache-manifest.f96945a8d4a9a9cd2f5abe0c18bb4653.js": "/React-2021/precache-manifest.f96945a8d4a9a9cd2f5abe0c18bb4653.js",
+    "service-worker.js": "/React-2021/service-worker.js",
+    "static/css/main.4bcf1253.chunk.css.map": "/React-2021/static/css/main.4bcf1253.chunk.css.map",
+    "static/js/2.db0edaa9.chunk.js.LICENSE.txt": "/React-2021/static/js/2.db0edaa9.chunk.js.LICENSE.txt",
+    "static/media/checktodo.d7efe4df.svg": "/React-2021/static/media/checktodo.d7efe4df.svg",
+    "static/media/deletetodo.76bf3982.svg": "/React-2021/static/media/deletetodo.76bf3982.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cf6ac0e.js",
+    "static/js/2.db0edaa9.chunk.js",
+    "static/css/main.4bcf1253.chunk.css",
+    "static/js/main.d0b6277b.chunk.js"
+  ]
+}
