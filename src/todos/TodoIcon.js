@@ -4,7 +4,11 @@ import { ReactComponent as CheckTodo } from '../img/checktodo.svg'
 import { ReactComponent as DeleteTodo } from '../img/deletetodo.svg'
 
 
-    // podemos crear un objeto con todos los iconos
+    /***
+     *  podemos crear un objeto con todos los iconos
+     *  tambien por medio de este objeto y una llave podemos hacer un condicional
+     * 
+     *  */
     const iconTypes = {
         "check" : color =>  (
             <CheckTodo className="Icon-svg Icon-svg--check" fill={color}/>

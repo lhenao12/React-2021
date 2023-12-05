@@ -1,6 +1,6 @@
 import React from "react";
 import { TodoProvider } from "../TodoContext";
-import {AppUI} from "./AppUI";
+import { AppUI } from "./AppUI";
 
 //import './App.css';
 
@@ -11,18 +11,14 @@ import {AppUI} from "./AppUI";
 //   { text: 'Leer un libro', complete: false },
 // ];
 
-
 //Custom react hook
 
 function App() {
-
-  return(
-   <TodoProvider>
-          <AppUI />
-   </TodoProvider>
-
+  return (
+    <TodoProvider>
+      <AppUI />
+    </TodoProvider>
   );
-  
 }
 
 export default App;

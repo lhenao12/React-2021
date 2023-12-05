@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\meetingsdk-sample-react"
+		},
+		{
+			"path": "..\\meetingsdk-sample-signature-node.js"
+		},
+		{
+			"path": "..\\meeting-react-190922\\meetingsdk-react-0922"
+		}
+	]
+}

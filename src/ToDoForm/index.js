@@ -12,11 +12,15 @@ function ToDoForm(params) {
             addTodo,
             setOpenModal,
         } = React.useContext(TodoContext);
+
+
+        
         const onCancel = () => {
             setOpenModal(false)
 
         }
         const onSubmit = (event) => {
+          //El metodo prevent Default nos ayuda a enviar el formulario sin recargar la pagina
            event.preventDefault()
            addTodo(newToDoValue)
            setOpenModal(false)

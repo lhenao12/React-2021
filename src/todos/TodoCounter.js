@@ -6,10 +6,12 @@ function TodoCounter() {
     
   //hacemos el llamado del Hoock de useContext y le enviamos el contexto, para obtener los estados estan globales
   const {totalTodos, completedTodos}= React.useContext(TodoContext)
+const sinTodos = "Felicitaciones!! no tienes Todos Pendientes...."
+const conTodos = "Has completado " + completedTodos + " de " + totalTodos + " ToDos "
   
   return (
-
-  <h2 className="TodoCounter">Has completado {completedTodos} de {totalTodos} ToDos</h2>
+  
+  <h2 className="TodoCounter">{totalTodos == 0 ? sinTodos : conTodos}</h2>
 
   );
 }
